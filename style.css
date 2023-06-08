@@ -27,35 +27,22 @@ main > h1{
 
 
 .card{
+    flex: 30%;
     box-shadow: 2px 3px 20px rgb(184, 181, 181);
-    width: 20em;
     overflow: hidden;
-    min-width: 380px;
+    min-width: 300px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     gap: 2em;
 }
 
-@media(max-width:350px){
+@media(max-width:450px){
     main > h1{
-        font-size: 2em;
-        margin: 2em;
+        font-size: 1.5em;
         text-align: center;
     }
-    
-    .container{
-       width: 100%;
-       /* background: red; */
-    }
-    
-    
-    .card{
-        min-width: 80%;
-    }
-
 }
-
 
 .image{
     width: 100%;
