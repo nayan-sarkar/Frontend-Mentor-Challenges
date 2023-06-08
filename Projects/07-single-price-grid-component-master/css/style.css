@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap');
+
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    background: var(--Light-Gray);
+    display: grid;
+    place-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container{
+    width: 300px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: 2px 2px 10px var(--Grayish-Blue);
+    border-radius: 6px;
+}
+
+.box-1{
+    padding: 1.5em;
+    background: #fff;
+}
+
+.box-1 > h2{
+    font-size: 1rem;
+    color: var(--Cyan);
+}
+
+.box-1 > h3{
+    font-size: .9rem;
+    margin: 1rem 0;
+    color: var(--Bright-Yellow);
+}
+
+.box-1 > p{
+    font-size: .9rem;
+    line-height: 1.5;
+    color: var(--Grayish-Blue);
+}
+
+.box-2{
+    padding: 1.5em;
+    background: var(--Cyan);
+}
+
+.box-2 > h2{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.box-2 > div{
+    display: flex;
+    padding: 1em 0px;
+    align-items: center;
+}
+
+.box-2 > div > h1{
+    color: #fff;
+}
+
+.box-2 > h3, .box-2 > div > h2 {
+    color: var(--Light-Gray);
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+.box-2 > div > h2{
+    margin-left: 1em;
+}
+
+input[type="button"]{
+    width: 100%;
+    padding: 1em;
+    margin-top: 2em;
+    color: #fff;
+    background: var(--Bright-Yellow);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px rgb(128, 127, 127);
+}
+
+.box-3{
+    padding: 1em 1.5em;
+    background: hsl(179, 62%, 48%);
+    color: #fff;
+}
+
+.box-3 > h3{
+    font-size: 1em;
+    padding: 1em 0px;
+}
+
+.box-3 > ul{
+    list-style-type: none;
+    font-size: .9em;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+footer{
+    margin-top: 2em;
+}
+
+
+@media (min-width: 600px)
+{
+
+    .container{
+        min-width: 600px;
+        grid-template-columns: 2fr;
+    }
+
+    .box-1{
+        grid-column: span 2;
+        padding: 2em;
+    }
+
+    .box-2{
+        width: 300px;
+        padding: 2em;
+    }
+
+    .box-3{
+        width: 300px;
+        padding-bottom: 1.5em;
+    }
+} 

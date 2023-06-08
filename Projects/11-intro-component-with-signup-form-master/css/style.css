@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+    /* ### Primary */
+    --Red: hsl(0, 100%, 74%);
+    --Green: hsl(154, 59%, 51%);
+    
+    /* ### Accent */
+    --Blue: hsl(248, 32%, 49%);
+    
+    /* ### Neutral */
+    --Dark-Blue: hsl(249, 10%, 26%);
+    --Grayish-Blue: hsl(246, 25%, 77%);
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: url("../images/bg-intro-mobile.png") , var(--Red);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.content{
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em 1em;
+    margin: 0px auto;
+}
+
+.content > *{
+    display: block;
+    text-align: center;
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+}
+
+.text > *{
+    padding: 1em 0px;
+}
+
+.box-2 > *{
+    margin: 2em 0px;
+}
+
+.content > .box-2 > .trial{
+    box-sizing: content-box;
+    padding: 2.3em 0px;
+    text-align: center;
+    background: var(--Blue);
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: .8rem;
+    box-shadow: 0px 7px 5px hsl(0, 49%, 55%);
+}
+
+#main-form{
+    width: 100%;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1.6em 1.8em;
+    box-shadow: 0px 7px 5px hsl(0, 49%, 55%);
+}
+
+#main-form > input{
+    padding: 1em 10px;
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 5px;
+    border: 1px solid  var(--Grayish-Blue);
+    font-weight: 600;
+    font-size: 12px;
+    outline: var(--Red);
+}
+
+#main-form > input:focus, #main-form > input:hover {
+    border: 1px solid  var(--Red);
+}
+
+#main-form > p{
+    color: var(--Grayish-Blue);
+    font-size: .8em;
+    width: 80%;
+    align-self: center;
+}
+
+#main-form > p > span{
+    font-weight: 700;
+    color: var(--Red)
+}
+
+#main-form > button{
+    padding: 1em 0px;
+    width:100%;
+    margin: 0px auto;
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    background: var(--Green);
+    box-shadow: 0px 4px 0px hsl(154, 39%, 51%);
+}
+
+#main-form > button:active{
+    background: hsl(154, 39%, 71%);
+
+}
+
+@media(min-width: 971px){
+    .content{
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1300px;
+    }
+
+    .box-2{
+        min-width: 300px;
+    }
+
+    .text{
+        padding-right: 1em;
+        text-align: left;
+    }
+
+
+
+}

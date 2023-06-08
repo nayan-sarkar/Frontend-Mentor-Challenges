@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Spencer Realty</title>
+        <meta charset="UTF-8">
+        <!-- viewport meta to render pages on mobile properly -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- link to google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+        
+        <!-- https://cdnjs.com/libraries/font-awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
+        
+        <!-- link to my CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+     <body>
+        <header class="header main-grid">
+            <div class="header-content">
+                <a class="logo-link" href="index.html">
+                    Spencer Realty
+                </a>
+                <button aria-label="Open navigation" class="open-nav">&#9776;</button>
+
+                <nav class="nav"> 
+                    <button aria-label="Close navigation" class="close-nav">&times;</button>
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html" class="nav-link">home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">about us</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">contact</a></li>
+                    </ul>
+                </nav>
+                
+                
+            </div>
+        </header>
+        
+        <main class="main-template main-grid">
+            
+            <h1 class="page-title">Contact.</h1>
+            <p class="subtitle">Let us know how we can help you get in touch with the best deals out there</p>
+            
+            <img class="main-image" src="img/contact.jpg" alt="a bunch of mailboxes">
+            <div class="secondary-text">
+                <h2 class="section-title">Getting in touch with us</h2>
+            </div>
+             
+            
+            <div class="main-text">
+                <div class="form-text">
+                    <form class="contact-form">
+                        <label class="fname-label" for="fname">First Name</label>
+                        <input type="text" class="fname-input" id="fname"  name="fname" required>                        
+                        <label class="lname-label" for="lname">Last Name</label>
+                        <input class="lname-input" id="lname" type="text" name="lname" required>
+    
+                        <label class="email-label" for="email">Email</label>
+                        <input class="email-input" id="email" type="email" name="email" required>
+    
+                        <label class="message-label" for="message">Message</label>
+                        <textarea class="message-textarea" id="message" name="message" required></textarea>
+                        
+                        <input class="btn btn-primary btn-form" type="submit" id="submit-btn" value="send">
+                    </form>
+                </div>
+                
+            </div>
+            
+        
+        </main>
+        
+        
+        <footer class="footer main-grid">
+            <div class="footer-main">
+                <a class="footer-logo" href="index.html">
+                    Spencer Realty
+                </a>
+                <p class="footer-text">We are dedicated to providing our clients with the highest level of service and expertise in the world of real estate. Whether you are looking to buy, sell, or lease a property, we have the skills and knowledge to help you achieve your goals.</p>
+                <p class="footer-fineprint">© Spencer Realty 2023</p>
+            </div>
+            <ul class="social-list">
+                <li class="social-item"><a href="#" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
+                <li class="social-item"><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+                <li class="social-item"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </footer>
+        
+        
+        <script src="script.js"></script>
+    </body>
+</html>

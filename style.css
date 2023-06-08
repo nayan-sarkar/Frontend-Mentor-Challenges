@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+main > h1{
+    font-size: 3em;
+    margin: 2em;
+    text-align: center;
+}
+
+.container{
+    justify-content: space-around;
+    gap: 4em;
+    width: 80%;
+    margin: 2em auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    box-shadow: 2px 3px 20px rgb(184, 181, 181);
+    width: 20em;
+    overflow: hidden;
+    min-width: 380px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+@media(max-width:350px){
+    main > h1{
+        font-size: 2em;
+        margin: 2em;
+        text-align: center;
+    }
+    
+    .container{
+       width: 100%;
+       /* background: red; */
+    }
+    
+    
+    .card{
+        min-width: 80%;
+    }
+
+}
+
+
+.image{
+    width: 100%;
+}
+
+.text{
+    padding: 1em 1.5em;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+.text > h2{
+    width: 100%;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.text > .icons{
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    justify-content: end;
+}
+
+.icons > a> img{
+    height: 1.8em;
+}

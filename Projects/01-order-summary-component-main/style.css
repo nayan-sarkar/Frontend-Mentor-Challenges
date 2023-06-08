@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url("images/pattern-background-mobile.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+#container{
+    margin: 10vh auto 0 auto;
+    width: 22em;
+    overflow: hidden;
+    border-radius: 15px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 20px 30px hsl(225, 100%, 94%);
+}
+
+@media(min-width: 580px){
+ body{
+    background: url("images/pattern-background-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+ }   
+}
+
+#container img{
+    width: 100%;
+}
+
+h1{
+    margin: 1.2em;
+    font-weight: 900;
+    font-size: 1.4em;
+    color: hsl(223, 47%, 23%);
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+    font-weight: 400;
+    width:70%;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+#plan{
+    background: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin-top: 1.2em;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    padding: .8em .8em;
+    gap: 1em;
+}
+
+#plan img{
+    height: 2.5em;
+    width: 2.5em;
+}
+
+#plan-type{
+    width: 100%;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+#plan a{
+    margin-left: auto;
+    font-size: 0.8em;
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+}
+
+.btn{
+    width: 85%;
+    margin-top: 1.2em;
+    padding: 1em 0.5em;
+    border-radius: 10px;
+    border: none;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: 700;
+}
+
+#payment-btn{
+    color: white;
+    background: hsl(245, 75%, 52%);
+    box-shadow: 0px 20px 10px hsl(225, 100%, 94%);
+}
+
+#payment-btn:active{
+    background: hsl(225, 100%, 94%);
+    color: hsl(224, 23%, 55%);
+}
+
+#cancel-payment{
+    color: hsl(224, 23%, 55%);
+    background: none;
+    margin-bottom: 1.2em;
+}
+
+#cancel-payment:active {
+    color: hsl(223, 47%, 23%);
+}
+
+#plan a:active, #plan a:visited{
+    text-decoration: none;
+}
+
+.attribution{
+    margin-top: 4em;
+}
