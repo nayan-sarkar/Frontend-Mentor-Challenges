@@ -20,7 +20,7 @@ export const projects = [
         "projectImage" : "projects/06-spencer-realty-website-master/design.png",
         "projectTitle" : "Spencer Realty Website",
         "github-url"  : "https://github.com/nayan-sarkar/UI-UX-Design-to-Code/tree/main/Projects/06-spencer-realty-website-master",
-        "live-url" : "https://github.com/nayan-sarkar/UI-UX-Design-to-Code/tree/main/Projects/06-spencer-realty-website-master"
+        "live-url" : "https://nynsrkr-frontend-mentor-challenges.netlify.app/Projects/06-spencer-realty-website-master"
     },
 
 
