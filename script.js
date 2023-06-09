@@ -1,5 +1,28 @@
 import {projects} from  "./data.js";
 
+const containerEl = document.getElementById("container");
+
+// for(let project of projects){
+//     const cardEl=document.createElement('div');
+//     cardEl.classList.add("card");
+//     const cardImgEl=document.createElement('img');
+//     cardImgEl.classList.add("image");
+//     cardImgEl.src=project.projectImage;
+//     cardEl.appendChild(cardImgEl);
+//     const textBoxEl = document.createElement("div");
+//     textBoxEl.classList.add("text");
+//     const ProjectTitleEl = document.createElement("h2");
+//     ProjectTitleEl.textContent=project.projectTitle;
+//     textBoxEl.appendChild(ProjectTitleEl);
+//     const iconsContainerEl = document.createElement("div");
+//     iconsContainerEl.classList.add("icons");
+//     textBoxEl.appendChild(iconsContainerEl);
+
+//     cardEl.appendChild(textBoxEl);
+//     containerEl.appendChild(cardEl);
+// }
+
+
 let projectList = "";
 
 for(let project of projects){
@@ -17,4 +40,4 @@ for(let project of projects){
     `;
 }
 
-document.getElementById("container").innerHTML=projectList;
+containerEl.innerHTML=projectList;
