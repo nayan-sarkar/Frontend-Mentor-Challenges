@@ -88,6 +88,13 @@ const projects = [
         "githubUrl"  : "https://github.com/nayan-sarkar/UI-UX-Design-to-Code/tree/main/public/projects/12-FlexBox-Project",
         "liveUrl" : "https://nynsrkr-frontend-mentor-challenges.netlify.app/Projects/12-FlexBox-Project/"
     },
+
+     {
+        "projectImage" : "projects/tek97.png",
+        "projectTitle" : "TEK97 Publication Site",
+        "githubUrl"  : "#",
+        "liveUrl" : "https://www.tek97.com"
+    }
  ]
 
  export default projects;
