@@ -3,6 +3,7 @@ const projects = [
         "projectImage" : "projects/news-search.png",
         "projectTitle" : "News Search App",
         "githubUrl"  : "https://github.com/nayan-sarkar/News-Search-App",
+        "style" : "news"
     },
     {
         "projectImage" : "projects/ip-address-tracker.jpg",

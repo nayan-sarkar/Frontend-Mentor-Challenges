@@ -106,3 +106,8 @@ main > h1{
 .icons > a> img{
     height: 1.8em;
 }
+
+.news > img{
+    object-position: top left;
+    object-fit: cover;
+}
