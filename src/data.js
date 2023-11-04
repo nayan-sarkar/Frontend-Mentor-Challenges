@@ -1,5 +1,10 @@
 const projects = [
     {
+        "projectImage" : "projects/news-search.png",
+        "projectTitle" : "News Search App",
+        "githubUrl"  : "https://github.com/nayan-sarkar/News-Search-App",
+    },
+    {
         "projectImage" : "projects/ip-address-tracker.jpg",
         "projectTitle" : "IP Address Tracker",
         "githubUrl"  : "https://github.com/nayan-sarkar/IP-Address-Tracker",
