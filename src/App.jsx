@@ -2,7 +2,7 @@ import Card from './Components/Card.jsx';
 import projects from './data.js';
 
 function App(){
-    const results = projects.map(e=><Card {...e}/>);
+    const results = projects.map((data,index)=><Card key={index} {...data}/>);
     return (
         <main>
         <h1>Design To Code Solutions</h1>
