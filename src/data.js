@@ -1,12 +1,9 @@
+import tek97 from './assets/tek97.png';
+import iptrack from './assets/ip-address-tracker.jpg';
+
 const projects = [
     {
-        "projectImage" : "projects/news-search.png",
-        "projectTitle" : "News Search App",
-        "githubUrl"  : "https://github.com/nayan-sarkar/News-Search-App",
-        "style" : "news"
-    },
-    {
-        "projectImage" : "projects/ip-address-tracker.jpg",
+        "projectImage" : iptrack,
         "projectTitle" : "IP Address Tracker",
         "githubUrl"  : "https://github.com/nayan-sarkar/IP-Address-Tracker",
         "liveUrl" : "https://fmc-ip-address-tracker.netlify.app/"
@@ -102,7 +99,7 @@ const projects = [
     },
 
      {
-        "projectImage" : "projects/tek97.png",
+        "projectImage" : tek97,
         "projectTitle" : "TEK97 Publication Site",
         "githubUrl"  : "#",
         "liveUrl" : "https://www.tek97.com"
