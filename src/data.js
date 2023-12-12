@@ -1,7 +1,15 @@
 import tek97 from './assets/tek97.png';
 import iptrack from './assets/ip-address-tracker.jpg';
+import news_search from './assets/news-search.png';
 
 const projects = [
+    {
+        "projectImage" : news_search,
+        "projectTitle" : "News Search App",
+        "githubUrl"  : "https://github.com/nayan-sarkar/News-Search-App",
+        "liveUrl" : "https://www.youtube.com/watch?v=D3Sf45yyTAs&feature=youtu.be",
+        "style" : "news"
+    },
     {
         "projectImage" : iptrack,
         "projectTitle" : "IP Address Tracker",
